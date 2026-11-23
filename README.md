@@ -1,4 +1,4 @@
-# Skirmish at Crane Reach agent
+# Skirmish at Crane Reach (The Rivals) agent
 
 Edit `agent.py` to build one unit's behavior for Skirmish at Crane Reach. Every unit on a side runs a separate instance of the same `Agent` class, so they do not share state or variables. `sandbox/` is provided code: do not edit it.
 
@@ -42,3 +42,14 @@ Test the connection with:
 ```console
 python -m sandbox llm
 ```
+
+
+
+
+## Reflection
+Season 5: Refined imitation learning, added logic for additional zones, made changes based on player feedback, added wasteland rules, fixed bugs, refined archer kiting and cavalry freeze, and capture point importance.
+
+## AI Use Disclosure and Reflection
+I used Claude Code in VS Code. It coded all of this based on my pseudocode and instructions. I verified each set of code it wrote before approving it, reverted and asked for changes as needed, tested by watching and eval, and discussed my ideas for solutions before committing to one. I did not write any code directly, but read summaries to check it. I had it set to ask for approval before committing anything, and that worked especially during testing and understanding what code was being changed. The most successful part was that we made and followed a plan based on what I wanted, and slowly went through it while changing code and testing.
+
+
