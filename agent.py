@@ -473,7 +473,7 @@ class Agent:
             return best(lambda end: end != here)
         if FOOTMEN_ANSWER_ARCHERS and unit_type == "footman":
             if any(tile.distance(here, enemy["position"]) <= 1 for enemy in enemies):
-                return None
+                return None 
             shooters = [
                 enemy
                 for enemy in enemies
