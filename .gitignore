@@ -28,3 +28,9 @@ lightning_logs/
 Thumbs.db
 .idea/
 .vscode/
+
+# Collected demonstrations, training reports, and evaluations.
+runs/
+
+# Rival agents for local benchmarks (Banner from the S5 template, frozen copies of our agents).
+rivals/
